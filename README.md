@@ -1,0 +1,1 @@
+Repository showing the Kendo UI and Office365 integration. Showing full CRUD operations, using the REST API.
