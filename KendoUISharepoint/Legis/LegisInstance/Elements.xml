@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Legis"
+                OnQuickLaunch="TRUE"
+                TemplateType="10000"
+                Url="Lists/Legis"
+                Description="My List Instance">
+  </ListInstance>
+  <ListInstance Title="CustomOne"
+                OnQuickLaunch="TRUE"
+                TemplateType="10000"
+                Url="Lists/Legis"
+                Description="My List Instance">
+  </ListInstance>
+</Elements>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Leaves" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Leaves" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010080877789a4484f9498c47a346d8799ea" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{9d9095a2-3507-45d1-8a38-77a2598b8c24}" Name="EventTitle" /><FieldRef ID="{2404385d-219c-4e70-bcf0-644f9646decc}" Name="StartTime" /><FieldRef ID="{c2a85cdf-0e62-47cb-b3ba-ab7f72ed720f}" Name="EndTime" /><FieldRef ID="{902e30ef-59e2-407f-8cda-83477a7c42cc}" Name="AllDay" /><FieldRef ID="{de82cafe-710f-4ea1-a576-c722c85267b1}" Name="Team" /><FieldRef ID="{e0a76276-e914-472a-9fa4-4955cc6993cf}" Name="Person" /><FieldRef ID="{9baf3a83-e4cf-46f3-abd6-76bf9bebe022}" Name="TeamID" /><FieldRef ID="{f7b19a21-8a43-4fee-a926-5d2662602e75}" Name="VacationDays" /><FieldRef ID="{911303ed-3311-4aa4-a31f-7f9ba0b0b7f9}" Name="BonusDays" /><FieldRef ID="{0692691e-81c7-4c14-979f-68823aea95d4}" Name="VacationType" /><FieldRef ID="{775aa836-9533-45b6-a5c6-acdbf1478a6b}" Name="EmployeeID" /><FieldRef ID="{5c5e280a-d231-4ef8-9c64-135f94b05f8d}" Name="JobTitle1" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="EventTitle" ID="{9d9095a2-3507-45d1-8a38-77a2598b8c24}" DisplayName="EventTitle" Type="Text" /><Field Name="StartTime" ID="{2404385d-219c-4e70-bcf0-644f9646decc}" DisplayName="StartTime" Type="DateTime" /><Field Name="EndTime" ID="{c2a85cdf-0e62-47cb-b3ba-ab7f72ed720f}" DisplayName="EndTime" Type="DateTime" /><Field Name="AllDay" ID="{902e30ef-59e2-407f-8cda-83477a7c42cc}" DisplayName="AllDay" Type="Boolean" /><Field Name="Team" ID="{de82cafe-710f-4ea1-a576-c722c85267b1}" DisplayName="Team" Type="Text" /><Field Name="Person" ID="{e0a76276-e914-472a-9fa4-4955cc6993cf}" DisplayName="Person" Type="Text" /><Field Name="TeamID" ID="{9baf3a83-e4cf-46f3-abd6-76bf9bebe022}" DisplayName="TeamID" Type="Number" /><Field Name="VacationDays" ID="{f7b19a21-8a43-4fee-a926-5d2662602e75}" DisplayName="VacationDays" Type="Number" /><Field Name="BonusDays" ID="{911303ed-3311-4aa4-a31f-7f9ba0b0b7f9}" DisplayName="BonusDays" Type="Number" /><Field Name="VacationType" ID="{0692691e-81c7-4c14-979f-68823aea95d4}" DisplayName="VacationType" Type="Number" /><Field Name="EmployeeID" ID="{775aa836-9533-45b6-a5c6-acdbf1478a6b}" DisplayName="EmployeeID" Type="Number" /><Field Name="JobTitle1" ID="{5c5e280a-d231-4ef8-9c64-135f94b05f8d}" DisplayName="JobTitle" Type="Text" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="EventTitle" /><FieldRef Name="StartTime" /><FieldRef Name="EndTime" /><FieldRef Name="AllDay" /><FieldRef Name="Team" /><FieldRef Name="Person" /><FieldRef Name="TeamID" /><FieldRef Name="VacationDays" /><FieldRef Name="BonusDays" /><FieldRef Name="VacationType" /><FieldRef Name="EmployeeID" /><FieldRef Name="JobTitle1" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,9 @@
+C:\Users\knnikolov\Downloads\SharePointApp1\KendoUISharepointApp\bin\Debug\SharePointApp1.pdb
+C:\Users\knnikolov\Downloads\SharePointApp1\KendoUISharepointApp\obj\Debug\SharePointApp1.dll
+C:\Users\knnikolov\Downloads\SharePointApp1\KendoUISharepointApp\obj\Debug\SharePointApp1.pdb
+C:\Users\knnikolov\Downloads\SharePointApp1\KendoUISharepoint\bin\Debug\KendoUISharepoint.pdb
+C:\Users\knnikolov\Downloads\SharePointApp1\KendoUISharepoint\obj\Debug\KendoUISharepoint.dll
+C:\Users\knnikolov\Downloads\SharePointApp1\KendoUISharepoint\obj\Debug\KendoUISharepoint.pdb
+C:\Work\sharepoint-demo\KendoUISharepoint\KendoUISharepoint\bin\Debug\KendoUISharepoint.pdb
+C:\Work\sharepoint-demo\KendoUISharepoint\KendoUISharepoint\obj\Debug\KendoUISharepoint.dll
+C:\Work\sharepoint-demo\KendoUISharepoint\KendoUISharepoint\obj\Debug\KendoUISharepoint.pdb

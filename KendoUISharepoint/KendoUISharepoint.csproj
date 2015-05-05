@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6A9FB33-4C07-4B47-89F2-0E5750736984}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KendoUISharepoint</RootNamespace>
+    <AssemblyName>KendoUISharepoint</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{d480547e-49dd-471d-ad09-d3abf8ef1f01}</AppFeaturePartId>
+    <WspPartId>{cf3a559f-c64c-4b68-9535-d1569139a4c5}</WspPartId>
+    <WorkflowPartId>{19484f02-33f4-4c6b-bc44-070a277daaf1}</WorkflowPartId>
+    <CspkgPartId>{d0c58dbe-c680-426f-98df-a82747bdfeb6}</CspkgPartId>
+    <SqlPackagePartId>{f3d14cef-d552-4183-8113-e5ae8f73e6a3}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\kendo.common-office365.min.css" />
+    <Content Include="Content\kendo.dataviz.min.css" />
+    <Content Include="Content\kendo.dataviz.office365.min.css" />
+    <Content Include="Content\kendo.office365.min.css" />
+    <Content Include="Content\Office365\loading.gif" />
+    <Content Include="Images\180x64.png" />
+    <Content Include="Scripts\grid.js" />
+    <Content Include="Scripts\utils.js" />
+    <Content Include="Teams\Elements.xml" />
+    <Content Include="Teams\Schema.xml" />
+    <Content Include="Teams\TeamsInstance\Elements.xml" />
+    <None Include="Leaves\LeavesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fa2a956c-8362-4bed-ab41-690d583221b0}</SharePointProjectItemId>
+    </None>
+    <None Include="Leaves\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c8472ae4-5a4b-4ebb-b50f-814cbbf4d630}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{de103f61-c75c-4806-a54d-6f88a22b9d12}</SharePointProjectItemId>
+    </None>
+    <Content Include="Images\180.png" />
+    <Content Include="Content\Office365\sprite.png" />
+    <Content Include="Leaves\Elements.xml" />
+    <Content Include="Leaves\LeavesInstance\Elements.xml" />
+    <Content Include="Leaves\Schema.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Teams\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{016de1ea-7331-4479-b81d-70fff4b53ebe}</SharePointProjectItemId>
+    </None>
+    <None Include="Teams\TeamsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4c981345-9122-48a4-9099-337a265e24a0}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f3d14cef-d552-4183-8113-e5ae8f73e6a3}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\kendo.all.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{52e646de-bf4a-41a9-8478-ebb4bca7bf4d}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{eae8e8c3-ac96-41ad-828c-d4e39ed89e86}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{b4f11268-da3a-479f-92da-2135831fcb18}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{efd7b186-2303-4274-bc50-e2865726bea9}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

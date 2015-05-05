@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\Office365\sprite.png" Url="Content/Office365/sprite.png" ReplaceContent="TRUE" />
+    <File Path="Content\kendo.dataviz.min.css" Url="Content/kendo.dataviz.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\kendo.dataviz.office365.min.css" Url="Content/kendo.dataviz.office365.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\kendo.office365.min.css" Url="Content/kendo.office365.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\kendo.common-office365.min.css" Url="Content/kendo.common-office365.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\Office365\loading.gif" Url="Content/Office365/loading.gif" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="efd7b186-2303-4274-bc50-e2865726bea9" Scope="Web" Title="SharePointApp1 Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\app.js" />
+    <ElementFile Location="Scripts\jquery-1.10.2.min.map" />
+    <ElementFile Location="Scripts\jquery-1.10.2.min.js" />
+    <ElementFile Location="Scripts\jquery-1.10.2.js" />
+    <ElementFile Location="Scripts\jquery-1.10.2.intellisense.js" />
+    <ElementFile Location="Scripts\kendo.all.min.js" />
+    <ElementFile Location="Scripts\grid.js" />
+    <ElementFile Location="Scripts\utils.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\Office365\sprite.png" />
+    <ElementFile Location="Content\kendo.dataviz.min.css" />
+    <ElementFile Location="Content\kendo.dataviz.office365.min.css" />
+    <ElementFile Location="Content\kendo.office365.min.css" />
+    <ElementFile Location="Content\kendo.common-office365.min.css" />
+    <ElementFile Location="Content\Office365\loading.gif" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementFile Location="Images\180x64.png" />
+    <ElementFile Location="Images\180.png" />
+    <ElementManifest Location="LeavesInstance\Elements.xml" />
+    <ElementManifest Location="Leaves\Elements.xml" />
+    <ElementFile Location="Leaves\Schema.xml" />
+    <ElementManifest Location="TeamsInstance\Elements.xml" />
+    <ElementManifest Location="Teams\Elements.xml" />
+    <ElementFile Location="Teams\Schema.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="LeavesInstance\Elements.xml" />
+        <ElementManifest Location="Leaves\Elements.xml" />
+        <ElementManifest Location="TeamsInstance\Elements.xml" />
+        <ElementManifest Location="Teams\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

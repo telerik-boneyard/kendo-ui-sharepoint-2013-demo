@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Leaves" OnQuickLaunch="TRUE" TemplateType="10001" Url="Lists/Leaves" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="EmployeeID">1</Field>
+          <Field Name="StartTime">2015-01-01</Field>
+          <Field Name="EndTime">2015-01-03</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Margaret Peacock</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">1</Field>
+          <Field Name="StartTime">2015-03-20</Field>
+          <Field Name="EndTime">2015-03-22</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Margaret Peacock</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">1</Field>
+          <Field Name="StartTime">2015-04-01</Field>
+          <Field Name="EndTime">2015-04-03</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Margaret Peacock</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">2</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">1</Field>
+          <Field Name="StartTime">2015-10-01</Field>
+          <Field Name="EndTime">2015-10-03</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Margaret Peacock</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>  
+        <Row>
+          <Field Name="EmployeeID">1</Field>
+          <Field Name="StartTime">2015-06-11</Field>
+          <Field Name="EndTime">2015-06-12</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Margaret Peacock</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">2</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">1</Field>
+          <Field Name="StartTime">2015-04-17</Field>
+          <Field Name="EndTime">2015-04-20</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Margaret Peacock</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">1</Field>
+          <Field Name="StartTime">2015-09-17</Field>
+          <Field Name="EndTime">2015-09-19</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Margaret Peacock</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">1</Field>
+          <Field Name="StartTime">2015-08-17</Field>
+          <Field Name="EndTime">2015-08-19</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Margaret Peacock</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">2</Field>
+          <Field Name="StartTime">2015-04-03</Field>
+          <Field Name="EndTime">2015-04-07</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Steven Buchanan</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">0</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Manager</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">3</Field>
+          <Field Name="StartTime">2015-04-21</Field>
+          <Field Name="EndTime">2015-04-24</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Michael Suyama</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">0</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">4</Field>
+          <Field Name="StartTime">2015-04-13</Field>
+          <Field Name="EndTime">2015-04-17</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Robert King</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">0</Field>
+          <Field Name="VacationType">2</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">5</Field>
+          <Field Name="StartTime">2015-04-15</Field>
+          <Field Name="EndTime">2015-04-17</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+          <Field Name="Person">Laura Callahan</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">0</Field>
+          <Field Name="VacationType">2</Field>
+          <Field Name="JobTitle">Inside Sales Coordinator</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">6</Field>
+          <Field Name="StartTime">2015-04-04</Field>
+          <Field Name="EndTime">2015-04-06</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Telerik Platform</Field>
+          <Field Name="TeamID">2</Field>
+          <Field Name="Person">Anne Dodsworth</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">2</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">7</Field>
+          <Field Name="StartTime">2015-04-21</Field>
+          <Field Name="EndTime">2015-04-26</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Telerik Platform</Field>
+          <Field Name="TeamID">2</Field>
+          <Field Name="Person">Janet Leverling</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">0</Field>
+          <Field Name="VacationType">2</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">8</Field>
+          <Field Name="StartTime">2015-04-01</Field>
+          <Field Name="EndTime">2015-04-02</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Telerik Platform</Field>
+          <Field Name="TeamID">2</Field>
+          <Field Name="Person">Andrew Fuller</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Vice President, Sales</Field>
+        </Row>
+        <Row>
+          <Field Name="EmployeeID">9</Field>
+          <Field Name="StartTime">2015-04-10</Field>
+          <Field Name="EndTime">2015-04-15</Field>
+          <Field Name="AllDay">true</Field>
+          <Field Name="Team">Telerik Platform</Field>
+          <Field Name="TeamID">2</Field>
+          <Field Name="Person">Nancy Davolio</Field>
+          <Field Name="VacationDays">20</Field>
+          <Field Name="BonusDays">5</Field>
+          <Field Name="VacationType">1</Field>
+          <Field Name="JobTitle">Sales Representative</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,8 @@
+C:\Users\knnikolov\Downloads\SharePointApp1\SharePointApp1\bin\Debug\SharePointApp1.pdb
+C:\Users\knnikolov\Downloads\SharePointApp1\SharePointApp1\obj\Debug\SharePointApp1.dll
+C:\Users\knnikolov\Downloads\SharePointApp1\SharePointApp1\obj\Debug\SharePointApp1.pdb
+C:\Users\knnikolov\Downloads\SharePointApp1\SharePointApp1\obj\Debug\SharePointApp1.csprojResolveAssemblyReference.cache
+C:\Work\tutorial\SharePointApp1\SharePointApp1\bin\Debug\SharePointApp1.pdb
+C:\Work\tutorial\SharePointApp1\SharePointApp1\obj\Debug\SharePointApp1.csprojResolveAssemblyReference.cache
+C:\Work\tutorial\SharePointApp1\SharePointApp1\obj\Debug\SharePointApp1.dll
+C:\Work\tutorial\SharePointApp1\SharePointApp1\obj\Debug\SharePointApp1.pdb

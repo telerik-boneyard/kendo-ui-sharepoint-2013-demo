@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100852185A5069E45DAB59AF275233AB1B4" Name="Legislation" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" DisplayName="$Resources:core,Title;" Name="LinkTitle" ReadOnly="TRUE" />
+      <FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" DisplayName="$Resources:core,First_Name;" Name="FirstName" />
+      <FieldRef ID="{475c2610-c157-4b91-9e2d-6855031b3538}" DisplayName="$Resources:core,Full_Name;" Name="FullName" />
+      <FieldRef ID="{475c2610-c157-4b91-9e2d-6855031b3123}" DisplayName="Twitter" Type="number" Name="FullName" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

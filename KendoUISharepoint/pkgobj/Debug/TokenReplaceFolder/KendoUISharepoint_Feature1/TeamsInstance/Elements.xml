@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Teams" OnQuickLaunch="TRUE" TemplateType="10000" Url="Lists/Teams" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Team">Kendo UI</Field>
+          <Field Name="TeamID">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Team">Sitefinity</Field>
+          <Field Name="TeamID">2</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="b4f11268-da3a-479f-92da-2135831fcb18" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="KendoUISharepoint_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

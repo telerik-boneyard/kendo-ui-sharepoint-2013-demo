@@ -1,0 +1,210 @@
+﻿#sidebar {
+    float:left;
+    width: 180px;
+    position: relative;
+}
+
+#right-content {
+    position: absolute;
+    left: 220px;
+    right: 20px;
+}
+
+.k-scheduler-layout > tbody > tr:first-child .k-scheduler-times tr + tr, .k-scheduler-header tr + tr {
+    display:none;
+}
+
+#employee-name {
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    box-sizing: border-box;
+    width: 180px;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,.45);
+    text-overflow: ellipsis;
+}
+.subtitle {
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #666666;
+    margin: 0;
+    padding: 15px 0 0;
+}
+#remaining-days {
+    font-size: 32px;
+    font-weight: normal;
+    color: #333333;
+}
+
+ul.remaining-by-type {
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+    list-style-type: none;
+    border-top: 1px solid #e3e3e3;
+}
+
+ul.remaining-by-type li {
+    display: block;
+    position: relative;
+    padding: 0 0 0 18px;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+}
+
+ul.remaining-by-type li:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #0072c6;
+}
+
+ul.remaining-by-type li.bonus:after {
+    background-color: #ec236a;
+}
+
+ul.remaining-by-type li span {
+    display: block;
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    color: #333333;
+}
+
+.scheduler-header:after {
+    display: block;
+    clear: both;
+    content: " ";
+    height: 0;
+    line-height: 0;
+}
+
+.scheduler-header {
+    padding: 15px 0;
+}
+
+h1 {
+    margin: -10px 0 0;
+    padding: 0;
+}
+
+.team-picker {
+    float: right;
+    line-height: 28px;
+    vertical-align: bottom;
+}
+
+.action-button {
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    position: relative;
+    color: #0072c6;
+}
+
+.action-button:after {
+    display: block;
+    position: absolute;
+    content: " "; 
+    left: 0;
+    top: 9px;
+    width: 16px;
+    height: 16px;
+    background: url(/_layouts/15/images/spcommon.png) no-repeat -233px -138px;
+}
+
+.action-button:hover {
+    text-decoration: none;
+    color: #004d85;
+}
+
+.action-button:hover:after {
+    background: url(/_layouts/15/images/spcommon.png) no-repeat -233px -120px;
+}
+
+.employee-card {
+    position: relative;
+    height: 70px;
+    width: 205px;
+}
+
+.employee-photo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.employee-name {
+    display: block;
+    position: absolute;
+    left: 70px;
+    top: 18px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.employee-jobtitle {
+    display: block;
+    position: absolute;
+    left: 70px;
+    top: 38px;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #787878;
+}
+
+.k-scheduler-monthview .k-scheduler-table td,
+.k-scheduler-monthview .k-hidden {
+    height: 55px;
+}
+
+.k-edit-form-container .k-button:visited {
+    color: #333;
+}
+.k-edit-form-container .k-button.k-primary:visited {
+    color: #fff;
+}
+
+.k-nav-current>.k-link span+span {
+  vertical-align: bottom;
+}
+
+#chart,
+#chart-totals {
+    height: 180px;
+    margin-top: 15px;
+}
+
+.left-col,
+.right-col {
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0 20px 30px 0;
+}
+
+.right-col {
+    width: 69.5%;
+    padding: 0 0 30px 0;
+}
+#ctl00_PlaceHolderSiteName_onetidProjectPropertyTitle {
+    font-size:42px;
+    text-decoration:none;
+}

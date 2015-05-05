@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.10.2.min.map" Url="Scripts/jquery-1.10.2.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.10.2.min.js" Url="Scripts/jquery-1.10.2.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.10.2.js" Url="Scripts/jquery-1.10.2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.10.2.intellisense.js" Url="Scripts/jquery-1.10.2.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\kendo.all.min.js" Url="Scripts/kendo.all.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\grid.js" Url="Scripts/grid.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\utils.js" Url="Scripts/utils.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
