@@ -1,5 +1,6 @@
 This repo provides an example of what a SharePoint add-in might look like with the Chart, DropDownList, and Scheduler components from Kendo UI 
 
+![image](http://developer.telerik.com/wp-content/uploads/2016/06/kendo-ui-leaves.jpg)
 
 Getting started article based on this [app](http://developer.telerik.com/featured/building-sharepoint-add-ins-with-kendo-ui/)
 <br /><br />
