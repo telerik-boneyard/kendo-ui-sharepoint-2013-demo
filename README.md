@@ -2,7 +2,8 @@ This repo provides an example of what a SharePoint add-in might look like with t
 
 ![image](http://developer.telerik.com/wp-content/uploads/2016/06/kendo-ui-leaves.jpg)
 
-Getting started article based on this [app](http://developer.telerik.com/featured/building-sharepoint-add-ins-with-kendo-ui/)
+SharePoint Online add-in that utilizes Kendo UI to visualize data stored in SharePoint that's integrated through its REST APIs. http://www.telerik.com/kendo-ui/ui-for-office-365-sharepoint/ 
+
 <br /><br />
 
 **Key files and folders located in the project structure** <br /><br />
